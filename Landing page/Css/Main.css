@@ -1,0 +1,42 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+head {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.nav {
+  background: green;
+  margin: 0; 
+  padding: 0;
+  height: 100px;
+  width: 100%;
+
+
+}
+footer {
+  margin: 0;
+  width: 110%;
+  height: 50px;
+  text-align: center;
+  background-color: green;
+  padding: 30px;
+  
+}
+#skt {
+  height: 100%;
+  width: 100%;
+  background: url('../img/soroush-karimi-M4C5tzTeFmE-unsplash.jpg');
+  background-size: cover;
+}
