@@ -1,0 +1,124 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Sans-Serif; 
+}
+
+
+     @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      
+      .section{
+		  	display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			background-color: #000;
+			height: 100%;
+      }
+      
+      	.imgLogo {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		
+		.bt_facebook{
+		 text-align: center;
+		
+		}
+		
+		
+		.boxForm1{
+			display: flex;
+		flex-direction: row;
+		justify-content: center;
+		 height: 350px;
+		 width: 450px;
+		 background: #fff;
+		 
+		 box-shadow: 3px 3px 3px 3px #aaaaaa;
+		
+		}
+		
+		
+		.boxForm{
+			display: flex;
+		flex-direction: row;
+		justify-content: center;
+		 height: 350px;
+		 width: 450px;
+		 background: #00c131;
+		
+		 border: 5px solid #ffff80;
+		}
+		
+		.formEntrada{
+			height: 250px;
+			width: 350px;
+
+		
+		}
+		.centralizar{
+		align-items: center;
+		}
+		
+        a.linkText:link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        
+        
+        }
+    
+    	a.linkText:hover {
+					  color:#ffff00;
+					  font-size: 20px;
+					}
+					
+		.telaJogo{
+				background-color: #008000;
+				height: 100%;	
+				border: solid 10px #ffffff;
+				
+			}
+			
+		.msgJogo{
+		font-size:20px;
+		
+		}
+		.textForm{
+		color: #fff;
+		font-size: 12px;
+		font-family: sans-senrif, verdana;
+		
+		}
+			.formJogo{
+			
+			  background: #fff;
+			}
+			.textoTelaJogo{
+			    color: #fff;
+			    font-size: 20px;
+			    font-family: sans-senrif, verdana;
+			    text-align: center;
+			    font-weight: bold;
+			}
+		.imgStyle{
+			border-radius: 50%;
+			float:right;
+		}
+	.linha{
+		 background-color: #fff;
+		 border: 1px solid #eee;
+	}
